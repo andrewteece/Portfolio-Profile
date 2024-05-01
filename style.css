@@ -1,1 +1,22 @@
 /* FONTS */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  src: url('./fonts/Montserrat-Regular.woff2') format('woff2');
+  src: url('./fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  src: url('./fonts/Montserrat-Bold.woff2') format('woff2');
+  src: url('./fonts/Montserrat-Bold.woff') format('woff');
+}
+
+/* CSS CUSTOM PROPERTIES*/
+
+/* BODY */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
