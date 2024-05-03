@@ -15,8 +15,11 @@
 
 /* CSS CUSTOM PROPERTIES*/
 
+:root {
+  --ff-primary: 'Montserrat', sans-serif;
+}
 /* BODY */
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--ff-primary);
 }
