@@ -18,6 +18,27 @@
 :root {
   --ff-primary: 'Montserrat', sans-serif;
 }
+
+/* CSS RESET */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
 /* BODY */
 
 body {
