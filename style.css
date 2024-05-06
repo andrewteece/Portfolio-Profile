@@ -33,14 +33,35 @@
   font: inherit;
 }
 
+body {
+  min-height: 100svh;
+  line-height: 1.5;
+}
+
 img,
 svg {
   max-width: 100%;
   display: block;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* BODY */
 
 body {
   font-family: var(--ff-primary);
+  font-weight: 400;
 }
